@@ -1,5 +1,0 @@
-Put seeder.conf in either /etc/seeder.conf or ~/.seeder/seeder.conf
-
-Configure with your params
-
-Run python seeder.py
