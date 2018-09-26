@@ -52,7 +52,7 @@ def read_hard_seeds(hard_seeds_file):
     return hard_seeds
 
 
-def read_seed_dump(seeds_file, valid_port="62583"):
+def read_seed_dump(seeds_file, valid_port="51472"):
 
     """ Read the good ip addresses from the seeds dump. """
 

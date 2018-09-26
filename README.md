@@ -1,7 +1,7 @@
-XSN Seeder
+Divi Seeder
 ====================
 
-xsn-seeder is a crawler for the XSN Core network, which
+divi-seeder is a crawler for the Divi Core network, which
 exposes a list of reliable nodes via a built-in DNS server, or instead
 just generates that list to push to a remote CloudFlare server.
 
@@ -68,7 +68,7 @@ virtualenv ./venv
 In the crontab editor, add the lines below:
 
 ```bash
-* * * * * cd {xsn_seeder_path}/cf-uploader && ./venv/bin/python seeder.py >/dev/null 2>&1
+* * * * * cd {divi_seeder_path}/cf-uploader && ./venv/bin/python seeder.py >/dev/null 2>&1
 ```
 
 COMPILING
